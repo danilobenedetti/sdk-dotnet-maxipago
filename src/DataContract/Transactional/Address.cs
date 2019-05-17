@@ -9,6 +9,10 @@ namespace MaxiPago.DataContract.Transactional {
     [Serializable]
     public class Address {
 
+        [XmlElement("id")]
+        public string Id { get; set; }
+        public bool ShouldSerializeId() { return !string.IsNullOrEmpty(this.Id); }
+
         [XmlElement("name")]
         public string Name { get; set; }
         public bool ShouldSerializeName() { return !string.IsNullOrEmpty(this.Name); }
@@ -20,6 +24,10 @@ namespace MaxiPago.DataContract.Transactional {
         [XmlElement("address2")]
         public string Address2 { get; set; }
         public bool ShouldSerializeAddress2() { return !string.IsNullOrEmpty(this.Address2); }
+
+        [XmlElement("district")]
+        public string District { get; set; }
+        public bool ShouldSerializeDistrict() { return !string.IsNullOrEmpty(this.District); }
 
         [XmlElement("city")]
         public string City { get; set; }
@@ -44,6 +52,18 @@ namespace MaxiPago.DataContract.Transactional {
         [XmlElement("email")]
         public string Email { get; set; }
         public bool ShouldSerializeEmail() { return !string.IsNullOrEmpty(this.Email); }
+
+        [XmlElement("type")]
+        public string Type { get; set; }
+        public bool ShouldSerializeType() { return !string.IsNullOrEmpty(this.Type); }
+
+        [XmlElement("gender")]
+        public string Gender { get; set; }
+        public bool ShouldSerializeGender() { return !string.IsNullOrEmpty(this.Gender); }
+
+        [XmlElement("birthDate")]
+        public string BirthDate { get; set; }
+        public bool ShouldSerializeBirthDate() { return !string.IsNullOrEmpty(this.BirthDate); }
 
     }
 }

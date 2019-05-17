@@ -1,0 +1,12 @@
+C:\Users\Danilo Benedetti\Downloads\sdk-dotnet\src\bin\Debug\maxiPago.dll
+C:\Users\Danilo Benedetti\Downloads\sdk-dotnet\src\bin\Debug\maxiPago.pdb
+C:\Users\Danilo Benedetti\Downloads\sdk-dotnet\src\obj\Debug\maxiPago.csprojAssemblyReference.cache
+C:\Users\Danilo Benedetti\Downloads\sdk-dotnet\src\obj\Debug\maxiPago.csproj.CoreCompileInputs.cache
+C:\Users\Danilo Benedetti\Downloads\sdk-dotnet\src\obj\Debug\maxiPago.dll
+C:\Users\Danilo Benedetti\Downloads\sdk-dotnet\src\obj\Debug\maxiPago.pdb
+C:\Users\Danilo Benedetti\source\repos\DotNet_mP\src\bin\Debug\maxiPago.pdb
+C:\Users\Danilo Benedetti\source\repos\DotNet_mP\src\obj\Debug\maxiPago.csprojAssemblyReference.cache
+C:\Users\Danilo Benedetti\source\repos\DotNet_mP\src\obj\Debug\maxiPago.csproj.CoreCompileInputs.cache
+C:\Users\Danilo Benedetti\source\repos\DotNet_mP\src\obj\Debug\maxiPago.pdb
+C:\Users\Danilo Benedetti\source\repos\DotNet_mP\src\bin\Debug\maxiPago.exe
+C:\Users\Danilo Benedetti\source\repos\DotNet_mP\src\obj\Debug\maxiPago.exe

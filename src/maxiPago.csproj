@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D86C2984-68FA-49E5-A0F1-26780C669200}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MaxiPago</RootNamespace>
     <AssemblyName>maxiPago</AssemblyName>
@@ -30,6 +30,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,9 +54,13 @@
     <Compile Include="DataContract\NonTransactional\CommandRequest.cs" />
     <Compile Include="DataContract\Transactional\CreditCard.cs" />
     <Compile Include="DataContract\Transactional\CreditInstallment.cs" />
+    <Compile Include="DataContract\Transactional\Document.cs" />
     <Compile Include="DataContract\Transactional\ErrorResponse.cs" />
+    <Compile Include="DataContract\Transactional\FraudDetails.cs" />
+    <Compile Include="DataContract\Transactional\Item.cs" />
     <Compile Include="DataContract\Transactional\OnFile.cs" />
     <Compile Include="DataContract\Transactional\OnlineDebit.cs" />
+    <Compile Include="DataContract\Transactional\Phone.cs" />
     <Compile Include="DataContract\Transactional\Recurring.cs" />
     <Compile Include="DataContract\Reports\FilterOptions.cs" />
     <Compile Include="DataContract\Reports\HeaderResponse.cs" />
@@ -83,6 +90,7 @@
     <Compile Include="Gateway\Transaction.cs" />
     <Compile Include="Gateway\Utils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teste.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

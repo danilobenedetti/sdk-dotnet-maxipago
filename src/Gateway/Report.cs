@@ -18,7 +18,7 @@ namespace MaxiPago.Gateway {
         /// Queries a list of transactions
         public RapiResponse GetTransactionDetailReport(String merchantId, String merchantKey, String period, String pageSize, String startDate
                                                      , String endDate, String startTime, String endTime, String orderByName, String orderByDirection
-                                                     , String startRecordNumber, String endRecordNumber) {
+                                                     , String startRecordNumber, String endRecordNumber, String referenceNum) {
 
             this.request = new RapiRequest(merchantId, merchantKey);
             this.request.Command = "transactionDetailReport";
@@ -35,6 +35,7 @@ namespace MaxiPago.Gateway {
             filter.OrderByDirection = orderByDirection;
             filter.StartRecordNumber = startRecordNumber;
             filter.EndRecordNumber = endRecordNumber;
+			filter.ReferenceNum = referenceNum;
 
             return new Utils().SendRequest<RapiRequest>(this.request, this.Environment) as RapiResponse;
         }

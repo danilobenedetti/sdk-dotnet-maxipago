@@ -51,6 +51,9 @@ namespace MaxiPago.DataContract.Reports {
 
         [XmlElement("pageToken")]
         public String PageToken { get; set; }
+		
+		[XmlElement("referenceNum")]
+        public String ReferenceNum { get; set; }
 
     }
 }
